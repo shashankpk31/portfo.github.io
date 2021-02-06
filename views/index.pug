@@ -1,0 +1,229 @@
+doctype html
+// Created By CodingNepal
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  // Somehow I got an error, so I comment the title, just uncomment to show
+  // <title>Personal Portfolio Website</title>
+  script(src='https://kit.fontawesome.com/a076d05399.js')
+  script(src='https://code.jquery.com/jquery-3.5.1.min.js')
+  script(src='https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js')
+  script(src='https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js')
+  script(src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js')
+  link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css')
+  link(rel="stylesheet", href="/css/index.css")
+.scroll-up-btn
+  i.fas.fa-angle-up
+nav.navbar
+  .max-width
+    .logo
+      a(href='#')
+        | Shashank
+        span Portfolio.
+    ul.menu
+      li
+        a.menu-btn(href='#home') Home
+      li
+        a.menu-btn(href='#about') About
+      li
+        a.menu-btn(href='#services') Services
+      li
+        a.menu-btn(href='#skills') Skills
+      li
+        a.menu-btn(href='#teams') Teams
+      li
+        a.menu-btn(href='#contact') Contact
+    .menu-btn
+      i.fas.fa-bars
+// home section start
+section#home.home
+  .max-width
+    .home-content
+      .text-1
+        | Hello, my name is
+      .text-2
+        | Shashank Pathak
+      .text-3
+        | And I&apos;m a 
+        span.typing
+      a(href='#') Hire me
+// about section start
+section#about.about
+  .max-width
+    h2.title
+      | About me
+    .about-content
+      .column.left
+        img(src='/images/sha4.jpeg' alt='')
+      .column.right
+        .text
+          | I&apos;m Shashank and I&apos;m a 
+          span.typing-2
+        p
+          | Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque autem excepturi eaque, sit laboriosam voluptatem nisi delectus. Facere explicabo hic minus accusamus alias fuga nihil dolorum quae. Explicabo illo unde, odio consequatur ipsam possimus veritatis, placeat, ab molestiae velit inventore exercitationem consequuntur blanditiis omnis beatae. Dolor iste excepturi ratione soluta quas culpa voluptatum repudiandae harum non.
+        a(href='#') Download CV
+// services section start
+section#services.services
+  .max-width
+    h2.title
+      | My services
+    .serv-content
+      .card
+        .box
+          i.fas.fa-paint-brush
+          .text
+            | Web Design
+          p
+            | Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.
+      .card
+        .box
+          i.fas.fa-chart-line
+          .text
+            | Advertising
+          p
+            | Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.
+      .card
+        .box
+          i.fas.fa-code
+          .text
+            | Apps Design
+          p
+            | Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.
+// skills section start
+section#skills.skills
+  .max-width
+    h2.title
+      | My skills
+    .skills-content
+      .column.left
+        .text
+          | My creative skills &amp; experiences.
+        p
+          | Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ratione error est recusandae consequatur, iusto illum deleniti quidem impedit, quos quaerat quis minima sequi. Cupiditate recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam alias quaerat? Quasi hic quidem illum. Ad delectus natus aut hic explicabo minus quod.
+        a(href='#') Read more
+      .column.right
+        .bars
+          .info
+            span HTML
+            span 90%
+          .line.html
+        .bars
+          .info
+            span CSS
+            span 60%
+          .line.css
+        .bars
+          .info
+            span JavaScript
+            span 80%
+          .line.js
+        .bars
+          .info
+            span Mongodb
+            span 70%
+          .line.php
+        .bars
+          .info
+            span MySQL
+            span 70%
+          .line.mysql
+// teams section start
+section#teams.teams
+  .max-width
+    h2.title
+      | My teams
+    .carousel.owl-carousel
+      .card
+        .box
+          img(src='/images/kav.jpg' alt='')
+          .text
+            | kavyesh
+          p
+            | Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      .card
+        .box
+          img(src='/images/ashu.jpg' alt='')
+          .text
+            | Ashutosh
+          p
+            | Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      .card
+        .box
+          img(src='/images/shiv.jpg' alt='')
+          .text
+            | Shivaay
+          p
+            | Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      .card
+        .box
+          img(src='/images/rishu.jpg' alt='')
+          .text
+            | Rishabh
+          p
+            | Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      .card
+        .box
+          img(src='/images/manu.jpg' alt='')
+          .text
+            | Manish
+          p
+            | Lorem ipsum dolor sit amet consectetur adipisicing elit.
+// contact section start
+section#contact.contact
+  .max-width
+    h2.title
+      | Contact me
+    .contact-content
+      .column.left
+        .text
+          | Get in Touch
+        p
+          | Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos harum corporis fuga corrupti. Doloribus quis soluta nesciunt veritatis vitae nobis?
+        .icons
+          .row
+            i.fas.fa-user
+            .info
+              .head
+                | Name
+              .sub-title
+                | Shashank Pathak
+          .row
+            i.fas.fa-map-marker-alt
+            .info
+              .head
+                | Address
+              .sub-title
+                | Shashank Pathak,noida sector 62
+          .row
+            i.fas.fa-envelope
+            .info
+              .head
+                | Email
+              .sub-title
+                | shashankpk34@gmail.com
+      .column.right
+        .text
+          | Message me
+        form(method="POST" action="/")
+          .fields
+            .field.name
+              input(type='text' placeholder='Name' name='Name' required='')
+            .field.email
+              input(type='email' placeholder='Email' name='Email' required='')
+          .field
+            input(type='text' placeholder='Subject' name='Subject' required='')
+          .field.textarea
+            // Due to more textarea, I got an error so I changed the tag name of this textarea into changeit.
+            changeit(cols='30' rows='10' placeholder='Message..' required='')
+          .button
+            button(type='submit') Send message
+// footer section start
+footer
+  span
+    | Created By 
+    a(href='#') shashankpk
+    |  | 
+    span.far.fa-copyright
+    |  2020 All rights reserved.
+// Somehow I got an error, so I comment the script tag, just uncomment to use
+script(src='index.js')

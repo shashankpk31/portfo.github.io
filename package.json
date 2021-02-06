@@ -1,0 +1,28 @@
+{
+  "name": "portfoliowebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mysql/xdevapi": "8.0.23",
+    "bcryptjs": "^2.4.3",
+    "body": "^5.1.0",
+    "body-parser": "^1.17.2",
+    "connect-flash": "^0.1.1",
+    "express": "^4.15.3",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.17.1",
+    "express-validator": "^3.2.1",
+    "mongoose": "^4.10.2",
+    "mysql": "^2.18.1",
+    "parser": "^0.1.4",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "pug": "^2.0.4"
+  }
+}
